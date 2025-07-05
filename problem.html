@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問題｜高校入試数学</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="problem-card">
+            <div id="question-header">
+                <span id="question-number">Q.1</span>
+                <span id="question-tags"></span>
+            </div>
+            <div id="question-text-container">
+                <p id="question-text">問題を読み込み中...</p>
+            </div>
+            <div id="choices-container" class="button-grid">
+                <!-- JavaScriptで選択肢ボタンを生成 -->
+            </div>
+            <div id="feedback-container">
+                <!-- 正解・不正解のフィードバックを表示 -->
+            </div>
+            <div id="navigation-container">
+                <button id="next-button" style="display: none;">次の問題へ</button>
+            </div>
+        </div>
+        <a href="index.html" class="back-link">« 単元選択にもどる</a>
+    </div>
+    <script src="problem.js"></script>
+</body>
+</html>
